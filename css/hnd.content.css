@@ -114,6 +114,7 @@ a.rvts21, span.rvts21
 {
  font-size: 14pt;
  font-family: 'Calibri';
+ font-weight: bold;
  color: #0000ff;
  text-decoration: underline;
 }
@@ -124,17 +125,18 @@ span.rvts22
  font-style: italic;
  font-weight: bold;
 }
-span.rvts23
+a.rvts23, span.rvts23
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts24
 {
  font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
-}
-a.rvts24, span.rvts24
-{
- font-size: 14pt;
- color: #0000ff;
- text-decoration: underline;
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
