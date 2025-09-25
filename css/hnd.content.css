@@ -129,14 +129,49 @@ a.rvts23, span.rvts23
 {
  font-size: 14pt;
  font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts24
+a.rvts24, span.rvts24
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts25
 {
  font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
+}
+span.rvts26
+{
+ font-size: 15pt;
+ font-family: 'Calibri';
+}
+span.rvts27
+{
+ font-size: 15pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+a.rvts28, span.rvts28
+{
+ font-size: 12pt;
+ font-family: '-apple-system';
+ color: #0969da;
+ background-color: #ffffff;
+ text-decoration: underline;
+}
+span.rvts29
+{
+ font-size: 12pt;
+ font-family: '-apple-system';
+ color: #0969da;
+ background-color: #ffffff;
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
