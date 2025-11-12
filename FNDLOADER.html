@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Personal Edition 9.7.0.541">
+  <meta name="generator" content="HelpNDoc Personal Edition 10.1.0.147">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -29,7 +29,7 @@
   <meta property="og:title" content="FNDLOADER" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
-  <meta property="og:site_name" content="SYMBOLTHREE" /> 
+  <meta property="og:site_name" content="≡ symbolthree ≡" /> 
 
   <!-- Bootstrap core CSS -->
   <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
@@ -49,7 +49,7 @@
   <!-- Hnd styles -->
   <link href="css/layout.min.css" rel="stylesheet" />
   <link href="css/effects.min.css" rel="stylesheet" />
-  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/theme-dark-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
   <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
@@ -78,7 +78,7 @@
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
     </button>
-    <h1>SYMBOLTHREE</h1>
+    <h1>≡ symbolthree ≡</h1>
     
   </header>
 
@@ -190,49 +190,49 @@
                 
 <p class="rvps2"><img alt="" style="width : 491px; height : 94px; vertical-align: bottom;" src="lib/NewItem.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts21">Configuration management and version control are important aspects in maintaining Oracle EBS environment. &nbsp;In typical situation, developers or technical users finish the development and configuration changes in test instance, then they extract these changes to configuration files, and finally pass these files to DBA and deploy the changes to production.</span></p>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts21">Oracle provide configuration tools FNDLOAD and other executables to export and import configuration files. &nbsp;The problem we developers are facing is that each tool has different syntax and parameters. &nbsp;Some tools are needed to be executed inside the EBS environment, and therefore create additional steps to prepare the configuration files.</span></p>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts21">The objective of </span><span class="rvts22">FNDLOADER</span><span class="rvts21"> is to simplify and unify these configuration tools in a standalone program which can be run </span><span class="rvts22">outside</span><span class="rvts21"> of the EBS environment. &nbsp;Thus developers and technical users can create these configuration files just from their desktop effectively and stored in source control; in addition these files can be deployed to different environments from a centralized approach (e.g. CI/CD pineline).</span></p>
+<p class="rvps2"><span class="rvts12">Configuration management and version control are important aspects in maintaining Oracle EBS environment. &nbsp;In typical situation, developers or technical users finish the development and configuration changes in test instance, then they extract these changes to configuration files, and finally pass these files to DBA and deploy the changes to production.</span></p>
 <p class="rvps2"><span class="rvts12"><br/></span></p>
-<p class="rvps2"><span class="rvts22">Supported Configuration Entities</span></p>
-<p class="rvps2"><span class="rvts21">EBS Versions</span><span class="rvts22">: </span><span class="rvts21">R12.1, and R12.2</span></p>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts22">AOL Objects</span></p>
+<p class="rvps2"><span class="rvts12">Oracle provide configuration tools FNDLOAD and other executables to export and import configuration files. &nbsp;The problem we developers are facing is that each tool has different syntax and parameters. &nbsp;Some tools are needed to be executed inside the EBS environment, and therefore create additional steps to prepare the configuration files.</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts12">The objective of </span><span class="rvts11">FNDLOADER</span><span class="rvts12"> is to simplify and unify these configuration tools in a standalone program which can be run </span><span class="rvts11">outside</span><span class="rvts12"> of the EBS environment. &nbsp;Thus developers and technical users can create these configuration files just from their desktop effectively and stored in source control; in addition these files can be deployed to different environments from a centralized approach (e.g. CI/CD pineline).</span></p>
+<p class="rvps2"><span class="rvts23"><br/></span></p>
+<p class="rvps2"><span class="rvts11">Supported Configuration Entities</span></p>
+<p class="rvps2"><span class="rvts12">EBS Versions</span><span class="rvts11">: </span><span class="rvts12">R12.1, and R12.2</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts11">AOL Objects</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2 noindent"><span class="rvts21">Lookup Values</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Messages</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Concurrent Programs</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Request Sets</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Responsibilities</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Functions</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Profile Options</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Menus</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Users</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Form Customization</span></li>
- <li class="rvps2 noindent"><span class="rvts21">NLS Translation of above objects</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Lookup Values</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Messages</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Concurrent Programs</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Request Sets</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Responsibilities</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Functions</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Profile Options</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Menus</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Users</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Form Customization</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">NLS Translation of above objects</span></li>
 </ul>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts22">XML Publishers</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts11">XML Publishers</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2 noindent"><span class="rvts21">Data Source Definitions</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Template Definitions</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Data Template Files</span></li>
- <li class="rvps2 noindent"><span class="rvts21">RTF/PDF Template Files</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Data Source Definitions</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Template Definitions</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Data Template Files</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">RTF/PDF Template Files</span></li>
 </ul>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts22">OA Framework</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts11">OA Framework</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2 noindent"><span class="rvts21">Page Customizations</span></li>
- <li class="rvps2 noindent"><span class="rvts21">Page / Region Definitions</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Page Customizations</span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Page / Region Definitions</span></li>
 </ul>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts22">Workflow</span></p>
+<p class="rvps2"><span class="rvts12"><br/></span></p>
+<p class="rvps2"><span class="rvts11">Workflow</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2 noindent"><span class="rvts21">Workflow Definitions</span><span class="rvts6"></span></li>
+ <li class="rvps2 noindent"><span class="rvts12">Workflow Definitions</span><span class="rvts6"></span></li>
 </ul>
-<p class="rvps5" style="clear: both;"><span class="rvts19">Created with the Personal Edition of HelpNDoc: </span><a class="rvts20" href="https://www.helpndoc.com/step-by-step-guides/how-to-convert-a-hlp-winhelp-help-file-to-a-chm-html-help-help-file/">Save time and frustration with HelpNDoc's WinHelp HLP to CHM conversion feature</a></p>
+<p class="rvps5" style="clear: both;"><span class="rvts18">Created with the Personal Edition of HelpNDoc: </span><a class="rvts19" href="https://www.helpndoc.com/step-by-step-guides/how-to-convert-a-hlp-winhelp-help-file-to-a-chm-html-help-help-file/">Save time and frustration with HelpNDoc's WinHelp HLP to CHM conversion feature</a></p>
 
             </div>
             
