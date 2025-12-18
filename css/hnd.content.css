@@ -73,29 +73,31 @@ span.rvts13
  font-size: 12pt;
  font-family: 'Calibri';
 }
-a.rvts14, span.rvts14
+span.rvts14
 {
- font-size: 12pt;
+ font-size: 14pt;
+ font-family: 'Calibri';
+}
+a.rvts15, span.rvts15
+{
+ font-size: 14pt;
  font-family: 'Calibri';
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts15
+a.rvts16, span.rvts16
 {
  font-size: 14pt;
  font-family: 'Calibri';
- color: #588877;
-}
-span.rvts16
-{
- font-size: 14pt;
- font-family: 'Calibri';
- color: #588877;
+ font-style: italic;
+ color: #0000ff;
+ text-decoration: underline;
 }
 span.rvts17
 {
- font-size: 14pt;
+ font-size: 18pt;
  font-family: 'Calibri';
+ color: #588877;
 }
 span.rvts18 /* Font Style */
 {
@@ -138,31 +140,24 @@ span.rvts23
 {
  font-size: 14pt;
 }
-a.rvts24, span.rvts24
-{
- font-size: 14pt;
- font-family: 'Calibri';
- color: #0000ff;
- text-decoration: underline;
-}
-span.rvts25
+span.rvts24
 {
  font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
 }
-span.rvts26
+span.rvts25
 {
  font-size: 15pt;
  font-family: 'Calibri';
 }
-span.rvts27
+span.rvts26
 {
  font-size: 15pt;
  font-family: 'Calibri';
  font-weight: bold;
 }
-a.rvts28, span.rvts28
+a.rvts27, span.rvts27
 {
  font-size: 12pt;
  font-family: '-apple-system';
@@ -170,7 +165,7 @@ a.rvts28, span.rvts28
  background-color: #ffffff;
  text-decoration: underline;
 }
-span.rvts29
+span.rvts28
 {
  font-size: 12pt;
  font-family: '-apple-system';
