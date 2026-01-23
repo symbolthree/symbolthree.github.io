@@ -172,18 +172,18 @@ span.rvts28
  color: #0969da;
  background-color: #ffffff;
 }
-a.rvts29, span.rvts29
+span.rvts29
+{
+ font-size: 18pt;
+ font-family: 'Calibri';
+ color: #333333;
+}
+a.rvts30, span.rvts30
 {
  font-size: 14pt;
  font-family: 'Calibri';
  color: #333333;
  text-decoration: underline;
-}
-span.rvts30
-{
- font-size: 18pt;
- font-family: 'Calibri';
- color: #333333;
 }
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
