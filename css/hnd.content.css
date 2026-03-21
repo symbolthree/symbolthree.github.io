@@ -200,6 +200,18 @@ span.rvts33
  font-style: italic;
  font-weight: bold;
 }
+a.rvts34, span.rvts34
+{
+ font-size: 12pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts35, span.rvts35
+{
+ font-size: 14pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
 /* ========== Para Styles ========== */
 p,ul,ol /* Paragraph Style */
 {
@@ -236,10 +248,6 @@ p,ul,ol /* Paragraph Style */
 .rvps6
 {
  text-align: center;
- line-height: 1.80;
-}
-.rvps7
-{
  line-height: 1.80;
 }
 /* ========== Lists ========== */
